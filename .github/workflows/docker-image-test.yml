@@ -2,7 +2,7 @@ name: Docker Image CI - Test
 
 on:
   schedule:
-    - cron: "50 * * * *"
+    - cron: "50 0/6 * * *"
 
 jobs:
 
